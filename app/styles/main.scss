@@ -1,3 +1,60 @@
 @import "../bower_components/bourbon/dist/bourbon";
 
 * { @include box-sizing(border-box); }
+
+body{
+  background-color: #8FB6BA;
+}
+
+.container {
+  width: 80%;
+  height: 560px;
+  background-color: #C5C9C9;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.priestPlayer {
+  width: 120px;
+  height: 40px;
+  background-color: #90C246;
+  margin-left: 80px;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.nunPlayer {
+  width: 120px;
+  height: 40px;
+  background-color: #90C246;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.Monster {
+  width: 220px;
+  height: 80px;
+  background-color: #7846C2;
+  margin-left: 80px;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 17px;
+}
+
+a:link {
+  text-decoration: none;
+}
