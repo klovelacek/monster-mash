@@ -1,4 +1,7 @@
 $('.nunImage').hide();
+$('.priestImage').hide();
+$('#fightSign').hide();
+$('#btnAttack').hide();
 
 
 // CONSTRUCTORS
@@ -27,7 +30,7 @@ var Priest = new Player({
   name:'Priest'
 });
 
-var health = health+5;
+
 
 
 
@@ -38,13 +41,12 @@ var health = health+5;
 // $('a').click(function(event){
 //     event.preventDefault();
 // });
-//
+// //
 // var attackMode = function(Monster){
-//   $('.Monster').click (function(event){
+//   $('.Monster').click (function(score){
 //
 //
-//
-//     if Monster.health == 20 {
+//     if counter == 0 {
 //       return Monster.health +5;
 //     }
 //
@@ -57,17 +59,23 @@ var health = health+5;
 // };
 
 
-var counter = 0;
+var counter = 20;
 
 function score(){
-  counter++;
+  counter--;
   $('#counter').text(counter);
-}
+  $('Monster').click();
+};
+
+// $('.#btnAttack').onClick(score);
+// event.preventDefault();
+
 
 
 $( '.nunPlayer' ).click(function() {
   event.preventDefault();
   $('.Player').hide();
   $('.nunImage').show();
-  alert('fight!');
+  $(function() {
+    $('#fightSign').show();
   });

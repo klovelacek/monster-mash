@@ -4,6 +4,10 @@
 
 body{
   background-color: #8FB6BA;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
 }
 
 .container {
@@ -20,12 +24,11 @@ body{
   height: 40px;
   background-color: #90C246;
   margin-left: 80px;
-  font-family: verdana, sans-serif;
-  font-weight: bold;
+  margin-top: 130px;
   font-size: 20px;
-  color: black;
   text-align: center;
   padding-top: 7px;
+  float: left;
 }
 
 .nunPlayer {
@@ -33,27 +36,53 @@ body{
   height: 40px;
   background-color: #90C246;
   margin-left: 80px;
-  margin-top: 30px;
-  font-family: verdana, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  margin-top: 130px;
   color: black;
   text-align: center;
   padding-top: 7px;
+  float: left;
 }
 
 .Monster {
-  width: 220px;
-  height: 80px;
-  background-color: #7846C2;
+  width: 260px;
+  overflow: hidden;
   margin-left: 80px;
+  margin-top: 40px;
+  margin-right: 80px;
   font-family: verdana, sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: black;
   text-align: center;
   padding-top: 17px;
+  float: right;
+  clear: right;
 }
+
+#counter {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  float: right;
+  text-align: center;
+  margin-right: 60px;
+  margin-top: 10px;
+  padding-top: 23px;
+}
+
+#fightSign {
+  width: 350px;
+  height: 235px;
+  background-color: white;
+  opacity: .70;
+  border: solid 3px #666;
+  margin: auto;
+  z-index: 1000;
+  padding: 40px 20px 20px 20px;
+  text-align: center;
+}
+
+
 
 a:link {
   text-decoration: none;
